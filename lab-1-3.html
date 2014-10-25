@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang = "th">
+<head>
+  <meta charset="utf-8"> 
+  <title>5710121064 นายมนตรี มะสมัน</title>
+</head>
+<body>
+<h1 style="color:#00F;">Creating an Ordered List</h1>
+<h1>Honest Shampoo Instructions</h1>
+<ol>
+ 	<li>Apply to wet hair</li>
+ 	<li>Massage gently into hair and scalp</li>
+ 	<li>Rinse thoroughly</li>
+ 	<li>Repeat steps 1 - 3 to ensure you burn through a bottle of this stuff a week.</li>
+ </ol>
+ 
+ <hr>
+  
+<h1>Modifying Ordered List Styles</h1>
+<ol type="A">
+ 	<li>First do this</li>
+ 	<li>Then do that</li>
+ 	<li>And then, do everything else</li>
+ </ol>
+ <ol type="a">
+ 	<li>I’m not going to do this</li>
+ 	<li>Or that</li>
+ 	<li>Or anything else</li>
+ </ol>
+ <ol type="I">
+ 	<li>Veni</li>
+ 	<li>Vidi</li>
+ 	<li>Vici</li>
+ </ol>
+ <ol type="i">
+ 	<li>I came</li>
+  	<li>I saw</li>
+  	<li>She Conquered</li>
+ </ol>
+ <ol type="1">
+  	<li>This is the same as not defining a type at all</li>
+  	<li>You might use this type in a nested list</li>
+  	<li>Nested lists are covered a few tasks ahead</li>
+ </ol>
+ 
+ <hr>
+ 
+<h1>Modifying an Ordered List’s Starting Character</h1>
+To shampoo, follow these steps:
+<ol>
+ <li>Apply to wet hair</li>
+ <li>Massage gently into hair and scalp</li>
+ <li>Rinse thoroughly</li>
+</ol>
+Then, to condition proceed by:
+<ol start="4">
+  <li>Wringing excess water from hair</li>
+  <li>Apply conditioner and massage gently into hair fromroots to ends</li>
+  <li>Rinse thoroughly with warm water</li>
+</ol>
+
+<hr>
+
+<h1 style="color:#00F;">Creating an Unordered List</h1>
+<h1>Points to Remember</h1>
+<ul>
+  <li>Don’t run with scissors</li>
+  <li>Don’t play with your food</li>
+  <li>Don’t forget to wash your hands</li>
+</ul>
+
+<hr>
+
+<h1>Modifying Bullet Styles</h1>
+<ul type="square">
+ <li>Ordered lists have alpha-numeric styles</li>
+ <li>Unordered lists have bullet styles</li>
+ <li>Each list controls these styles with the type attribute</li>
+</ul>
+<ul type="circle">
+ <li>Ordered lists have alpha-numeric styles</li>
+ <li>Unordered lists have bullet styles</li>
+ <li>Each list controls these styles with the type attribute</li>
+</ul>
+<ul type="disc">
+ <li>Ordered lists have alpha-numeric styles</li>
+ <li>Unordered lists have bullet styles</li>
+ <li>Each list controls these styles with the type attribute</li>
+</ul>
+<ul>
+ <li>Ordered lists have alpha-numeric styles</li>
+ <li>Unordered lists have bullet styles</li>
+ <li>Each list controls these styles with the type attribute</li>
+</ul>
+
+<hr>
+
+<h1>Nested Lists</h1>
+<ol type="I">
+    <li>Main Idea
+        <ol type="A">
+            <li>Subordinate Idea
+                <ol type="1">
+                    <li>Supporting Detail
+                        <ul type="square">
+                            <li>Example</li>
+                            <li>Example</li>
+                        </ul>
+                    </li>
+                    <li>Supporting Detail</li>
+                </ol>
+            </li>
+         </ol>
+     </li>
+</ol>
+<ul type="disc">
+	<li>Type defaults to disc
+    	<ul type="circle">
+        	<li>First nest defaults to circle
+            	<ul type="square">
+                	<li>Third nest defaults to square...
+                    	<ul type="square">
+                        	<li>and continues as square until you set a type attribute</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<hr>
+
+<h1 style="color:#00F;">Definition Lists</h1>
+<h1>Lists in HTML</h1>
+<dl>
+ <dt>The Ordered List</dt>
+ 	<dd>Created using the OL element. This list should contain information where order should be emphasized.</dd>
+ <dt>The Unordered List</dt>
+ 	<dd>Created using the UL element. This list should be used to express a series of significant points</dd>
+ <dt>The Definition List</dt>
+ 	<dd>Create using the DL element. This list should be used to define a list of terms.</dd>
+ <dl>
+ 
+<hr>
+
+<h1 style="color:#00F;">Changing List Appearance</h1>
+<h1>Lists in HTML</h1>
+<ul style="list-style-image: url(bullet.gif); ">
+ 	<li>The Ordered List
+    	<ul style="list-style-image: url(bullet2.gif); ">
+        	<li style="color:#0F0">Created using the OL element. This list should contain information where order should be emphasized.</li>
+         </ul>
+    </li>
+ 	<li>The Unordered List
+    	<ul style="list-style-image: url(bullet2.gif); ">
+ 			<li style="color:#0F0">Created using the UL element. This list should be used to express a series of significant points</li>
+       </ul>
+	<li>The Definition List
+    	<ul style="list-style-image: url(bullet2.gif); ">
+ 			<li style="color:#0F0">Create using the DL element. This list should be used to define a list of terms.</li>
+        </ul>
+    </li>
+ </ul>
+
+</body>
+</html>

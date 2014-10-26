@@ -63,11 +63,11 @@
             	<li><a href="?page=lab-1-2.html">lab-1-2.html</a></li>
             	<li><a href="?page=lab-1-3.html">lab-1-3.html</a></li>
             </ul>
-        
-        
         </div>
 		<div class="content">
-        	<?php include $_GET[page]; ?>
+        	<?php 
+			if(!empty($_GET[page])) include $_GET[page]; 
+			?>
 		</div>
 		<div class="menu2">Menu 2</div>
 		<div class="footer">Footer</div>

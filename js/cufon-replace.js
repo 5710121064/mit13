@@ -3,3 +3,4 @@ Cufon.replace('header nav a', { fontFamily: 'Humanst521 Lt BT', textShadow: '1px
 Cufon.replace('h2', { fontFamily: 'Humanst521 Lt BT'});;
 Cufon.replace('.news li figure', { fontFamily: 'Humanst521 BT'});;*/
 Cufon.replace('header nav a', { fontFamily: 'Humanst521 Lt BT', textShadow: '1px 1px rgba(0, 0, 0, 0.2)' });;
+Cufon.replace('.navigation h3', { fontFamily: 'Humanst521 Lt BT', textShadow: '1px 1px rgba(0, 0, 0, 0.2)' });;
